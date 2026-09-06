@@ -4,22 +4,22 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@/components/ui/select';
 import { Mail, ArrowUpRight, Send, Check, Copy } from 'lucide-react';
-import leads from '@/lib/leads.json';
+import type { Lead } from '@/lib/lead-types';
 import { sender } from '@/lib/mail';
 
 type ApiResponse={error?:string;status?:string;states:Array<{id:number;status:string}>;clientId:string};
 type TokenResponse={access_token?:string;expires_in?:number;error?:string;scope?:string};
-type GoogleAPI={accounts:{oauth2:{initTokenClient(config:Record<string,unknown>):{requestAccessToken():void};hasGrantedAllScopes(token:TokenResponse,...scopes:string[]):boolean}}};
+type GoogleAPI={accounts:{id:{initialize(config:Record<string,unknown>):void;renderButton(element:HTMLElement,config:Record<string,unknown>):void};oauth2:{initTokenClient(config:Record<string,unknown>):{requestAccessToken():void};hasGrantedAllScopes(token:TokenResponse,...scopes:string[]):boolean}}};
 declare global { interface Window { google?:GoogleAPI } }
 const scopes=['https://www.googleapis.com/auth/gmail.send','https://www.googleapis.com/auth/userinfo.email'];
 const statusLabel=(s:string)=>s.startsWith('skipped')?'Needs review':s==='uncertain'?'Check Gmail':s;
 
-export default function Desk() {
+export default function Desk({leads}:{leads:Lead[]}) {
  const [selected,setSelected]=useState(leads.find(l=>l.status==='ready')!.id);
  const [states,setStates]=useState<Record<number,string>>({});
  const [loaded,setLoaded]=useState(false),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  const [filter,setFilter]=useState('ready'),[search,setSearch]=useState('');
- const [clientId,setClientId]=useState(''),[draftId,setDraftId]=useState(''),[setup,setSetup]=useState(false),[gisReady,setGisReady]=useState(false);
+ const [clientId,setClientId]=useState(''),[setup,setSetup]=useState(false),[gisReady,setGisReady]=useState(false);
  const [connected,setConnected]=useState(false);
  const token=useRef(''),expires=useRef(0),sending=useRef(false);
  const lead=leads.find(l=>l.id===selected)!;
@@ -27,7 +27,7 @@ export default function Desk() {
  const current=state(lead);
  async function refresh() {
   setLoaded(false);
-  try {const r=await fetch('/api/state',{cache:'no-store'});const d=await r.json() as ApiResponse;if(!r.ok)throw Error(d.error);setStates(Object.fromEntries(d.states.map((s:{id:number;status:string})=>[s.id,s.status])));setClientId(d.clientId);setDraftId(d.clientId);setLoaded(true);}
+  try {const r=await fetch('/api/state',{cache:'no-store'});const d=await r.json() as ApiResponse;if(r.status===401){window.location.replace('/');return;}if(!r.ok)throw Error(d.error);setStates(Object.fromEntries(d.states.map((s:{id:number;status:string})=>[s.id,s.status])));setClientId(d.clientId);setLoaded(true);}
   catch(e){setNotice(e instanceof Error?e.message:'History unavailable.');}
  }
  useEffect(()=>{void refresh();const s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.async=true;s.onload=()=>setGisReady(true);s.onerror=()=>setNotice('Google connection could not load. Reload to try again.');document.head.appendChild(s);return()=>{s.remove();};},[]);
@@ -48,10 +48,7 @@ export default function Desk() {
    catch(e){setNotice(e instanceof Error?e.message:'Could not connect Gmail.');}
   }}).requestAccessToken();
  }
- async function saveSetup() {
-  try{const r=await fetch('/api/state',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({clientId:draftId.trim()})});const d=await r.json() as ApiResponse;if(!r.ok)throw Error(d.error);setClientId(draftId.trim());setNotice('Connection settings saved. Click Connect Gmail.');}
-  catch(e){setNotice(e instanceof Error?e.message:'Could not save settings.');}
- }
+ async function logout(){const r=await fetch('/api/auth/logout',{method:'POST'});if(r.ok){token.current='';window.location.replace('/');}else setNotice('Could not sign out. Try again.');}
  async function send() {
   if(sending.current||current!=='ready'||!loaded)return;
   if(!token.current||Date.now()>=expires.current){setConnected(false);token.current='';setNotice('Reconnect Gmail, then click Send email again.');return;}
@@ -68,9 +65,9 @@ export default function Desk() {
  }
  async function copy() {try{await navigator.clipboard.writeText(`Subject: ${lead.subject}\n\n${lead.body}`);setNotice('Email copied.');}catch{setNotice('Clipboard unavailable. You can select and copy the message text.');}}
  return <main className="desk">
- <header><div className="brand">a<span>Outreach desk<small>Aston Rodrigues</small></span></div><div className="actions"><span className="account">{sender}</span><Button className="h-10 px-4" onClick={connect} disabled={busy}>{connected?<Check/>:<Mail/>}{connected?'Reconnect Gmail':'Connect Gmail'}</Button><Button variant="ghost" onClick={()=>setSetup(!setup)}>Setup</Button></div></header>
+ <header><div className="brand">a<span>Outreach desk<small>Aston Rodrigues</small></span></div><div className="actions"><span className="account">{sender}</span><Button className="h-10 px-4" onClick={connect} disabled={busy}>{connected?<Check/>:<Mail/>}{connected?'Reconnect Gmail':'Connect Gmail'}</Button><Button variant="ghost" onClick={()=>setSetup(!setup)}>Setup</Button><Button variant="ghost" onClick={logout}>Sign out</Button></div></header>
  <section className="intro"><div><p>BENGALURU / BUSINESS OUTREACH</p><h1>Your next conversation.</h1><span>Written for each business. Ready for your review.</span></div><div className="counts"><div><strong>{leads.filter(l=>state(l)==='ready').length}</strong><span>Ready</span></div><div><strong>{leads.filter(l=>state(l)==='sent').length}</strong><span>Sent</span></div><div><strong>{leads.filter(l=>state(l)==='bounced').length}</strong><span>Bounced</span></div></div></section>
- {setup?<section className="setup"><h2>Connect your Gmail once</h2><p>Google requires an OAuth Web client before this dashboard can send. No password or client secret is needed here.</p><ol><li>In <a href="https://console.cloud.google.com/apis/library/gmail.googleapis.com" target="_blank" rel="noreferrer">Google Cloud</a>, enable Gmail API for your project.</li><li>Configure the OAuth consent screen. If the app is in Testing, add <strong>{sender}</strong> as a test user.</li><li>Create a Web application OAuth client. Add this page’s origin as an authorised JavaScript origin: <code>{typeof window==='undefined'?'The deployed site address':window.location.origin}</code>.</li><li>Paste the client ID below, save, then choose Connect Gmail and approve sending.</li></ol><label htmlFor="clientid">Google Web client ID</label><div className="actions"><Input id="clientid" value={draftId} onChange={e=>setDraftId(e.target.value)} placeholder="123…apps.googleusercontent.com"/><Button onClick={saveSetup} disabled={!loaded}>Save setup</Button></div><p className="fine">Access tokens stay in memory only. Google may ask you to reconnect when they expire. <a href="https://developers.google.com/identity/oauth2/web/guides/use-token-model" target="_blank" rel="noreferrer">Google’s connection guide ↗</a></p></section>:null}
+ {setup?<section className="setup"><h2>Gmail connection</h2><p>The Google Web client ID is configured through <strong>GOOGLE_CLIENT_ID</strong> in Vercel. Enable Gmail API in that Google Cloud project, and add your deployed origin to its authorised JavaScript origins.</p><p>Click Connect Gmail and approve sending as {sender}. If the consent app is in Testing, add this email as a test user.</p><p className="fine">Access tokens stay in memory only. You may need to reconnect after a reload or expiration. No password or client secret is stored. <a href="https://developers.google.com/identity/oauth2/web/guides/use-token-model" target="_blank" rel="noreferrer">Google’s connection guide ↗</a></p></section>:null}
  {!clientId&&!setup?<div className="notice">Your messages are prepared. <button onClick={()=>setSetup(true)}>Complete the one-time Gmail setup</button> to enable sending.</div>:null}
  {notice?<div className="notice" role="status">{notice}</div>:null}
  {!loaded?<div className="notice">Saved history is not loaded. <button onClick={refresh}>Reload history</button></div>:null}

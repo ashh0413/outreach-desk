@@ -1,19 +1,53 @@
-# Outreach Desk
+# Outreach Desk — Vercel edition
 
-Private Sites dashboard for Aston Rodrigues. Imports 100 researched businesses, 66 unsent ready messages, two previously sent emails, one known bounce and 31 held records. No emails were sent while developing this app.
+A private Next.js dashboard for Aston Rodrigues. Each business has a prepared email with its researched website issue, a proposed improvement and a portfolio link. You review and click Send; nothing sends automatically.
 
-## Gmail activation
+## Deploy on Vercel
 
-Enable Gmail API in a Google Cloud project. Configure OAuth consent and add astonajoy77@gmail.com as a test user if in Testing. Create a Web OAuth client with the deployed origin https://aston-outreach-desk.rvsatish.chatgpt.site as an authorized JavaScript origin. Enter its client ID in Setup. No secret or password is required. Then connect Gmail and consent to gmail.send plus userinfo.email. The sender is enforced on the server.
+1. Import this GitHub repository into Vercel. Select **Next.js**, root directory `./`, default build/output settings and Node.js **22.x**.
+2. Add a **Neon Postgres** database through **Storage / Marketplace**, and connect it to this project. Confirm Vercel sets `DATABASE_URL`.
+3. In Google Cloud, enable **Gmail API** and configure an OAuth consent screen. Add **astonajoy77@gmail.com** as a test user if the consent app is in Testing.
+4. Create an OAuth **Web application** client. Set `GOOGLE_CLIENT_ID` in Vercel to its client ID. No Google client secret is needed.
+5. Deploy. Add your final Vercel origin (for example `https://your-project.vercel.app`, without a path) to that Google client's **Authorised JavaScript origins**. For local work also allow `http://localhost:3000`.
+6. Redeploy after changing environment variables. Open the dashboard, sign in with the authorised Gmail account, then click **Connect Gmail** and approve sending.
 
-Token-model OAuth: short-lived access tokens are held in memory only, passed to the send endpoint and never persisted or logged. Reconnect after expiration or page reload. Gmail sending is implemented but cannot be tested end-to-end until the user configures OAuth and grants consent. See https://developers.google.com/identity/oauth2/web/guides/use-token-model and https://developers.google.com/workspace/gmail/api/guides/sending.
+You can deploy before configuring the services: the site shows a locked setup screen, not a public business list. Google sign-in works only after `GOOGLE_CLIENT_ID` and its allowed origin are configured. Sending also requires the database. The app creates its own `outreach_deliveries` table on the first authenticated database operation; no manual SQL is needed. Do not choose a read-only database role.
 
-## Safety and status
+### Environment variables
 
-D1 reserves every attempt before contacting Gmail. Concurrent clicks and ambiguous network failures cannot silently resend. Uncertain/failed attempts stay blocked for manual investigation. Do not reset rows until Gmail Sent has been checked. Sent means Gmail accepted the request, not proof of delivery. The app does not read the inbox; bounce and opt-out labels are manual. Historical sent/bounced records are blocked in source as well as UI. Each action checks platform identity and POST origin. Keep Site access owner-only.
+| Variable | Purpose |
+| --- | --- |
+| `GOOGLE_CLIENT_ID` | Required Google Web OAuth client ID; used for both sign-in and Gmail permission. |
+| `DATABASE_URL` | Required Neon Postgres connection string; server-only secret injected by the integration. |
+| `APP_URL` | Optional fixed production origin for additional origin checking. If set, it must match the address you open. Omit for separate preview origins. |
 
-Messages use researched text excerpts and a portfolio link, not a file attachment. Held records intentionally have no send-ready email; do not invent claims. Source text can include hidden page content and findings may become stale. Refresh research before a later campaign.
+Set these for Production. Preview deployments need their own allowed Google origins and preferably a separate database. Do not send real campaigns from both preview and production.
 
-## Verification
+## What's included
 
-Run node --test tests/send.test.cjs, npx tsc --noEmit and npm run build. Tests mock Google; they do not send. WebMCP preview_business_email is optional and never sends. No supported live WebMCP validation context was used, so its runtime registration is unverified. No browser UI QA was performed.
+100 researched businesses: 66 ready, two previously sent, one known bounce, 31 held for verification. Messages for held entries intentionally remain unavailable until their contact/finding is confirmed. Gmail sending uses the official API. The portfolio is a link, not an attachment.
+
+Google ID tokens are verified server-side for signature, issuer, audience, expiry and verified email. Only `astonajoy77@gmail.com` is admitted. Sign-in uses a short-lived nonce and an HttpOnly, SameSite cookie (Secure in production). No OpenAI/Cloudflare identity headers are trusted. Unauthenticated visitors cannot receive business data.
+
+Gmail access tokens remain in memory; passwords, refresh tokens and access tokens are not stored in the database. The sign-in cookie contains a Google-signed ID token and expires within an hour. You may need to sign in/connect again after expiration or a reload.
+
+Every send is reserved atomically in Postgres before contacting Gmail. Repeated/concurrent clicks cannot silently resend. Ambiguous/failed attempts remain blocked for manual investigation. Sent means accepted by Gmail, not proof of delivery. Bounces and opt-outs are marked manually; the inbox is not read.
+
+## Moving from the older Sites version
+
+This branch now targets Vercel, not Cloudflare Sites. The earlier source is preserved in Git history; the existing Sites deployment has not been changed. The known two sends and one bounce remain blocked in source. Any additional history accumulated in the old live app is **not automatically migrated**. If you have used that app since its initial creation, reconcile its history before sending here. Stop using the old app for sending when you switch.
+
+## Local checks
+
+```sh
+npm ci
+npm test
+npm run build
+npm run dev
+```
+
+Copy `.env.example` to an ignored `.env.local` and supply your service settings for authenticated local use.
+
+Automated checks mock Google and the database and send no email. A production build is checked without secrets. Real Google sign-in, a live Neon database and actual email delivery still require your configured services and consent; they are not claimed as end-to-end tested. Browser UI QA and optional WebMCP runtime validation have not been performed.
+
+References: [Google ID token verification](https://developers.google.com/identity/gsi/web/guides/verify-google-id-token), [Gmail permission model](https://developers.google.com/identity/oauth2/web/guides/use-token-model), [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nextjs).
