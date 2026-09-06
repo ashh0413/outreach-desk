@@ -51,3 +51,6 @@ Copy `.env.example` to an ignored `.env.local` and supply your service settings 
 Automated checks mock Google and the database and send no email. A production build is checked without secrets. Real Google sign-in, a live Neon database and actual email delivery still require your configured services and consent; they are not claimed as end-to-end tested. Browser UI QA and optional WebMCP runtime validation have not been performed.
 
 References: [Google ID token verification](https://developers.google.com/identity/gsi/web/guides/verify-google-id-token), [Gmail permission model](https://developers.google.com/identity/oauth2/web/guides/use-token-model), [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nextjs).
+# Bulk sending
+
+After connecting Gmail, **Send all** confirms the total number of ready recipients (independent of search and filters). The app reloads saved history, excludes blocked/attempted entries and duplicate ready addresses, and sends each prepared message sequentially with a 10-second gap. Keep the tab open. **Stop sending** stops after any in-flight request; it cannot recall accepted mail. Any error, expired connection, or uncertain result stops the batch with no automatic retry. Google sending limits still apply. No emails are sent merely by deploying this feature.
