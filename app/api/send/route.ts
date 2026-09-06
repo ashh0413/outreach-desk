@@ -1,4 +1,4 @@
-import leads from '@/lib/leads.json';
+import { getLeads } from '@/lib/catalog';
 import { guard, json, failure } from '@/lib/server';
 import { deliveries } from '@/lib/database';
 export const maxDuration=60;
@@ -8,7 +8,7 @@ export async function POST(req:Request) {
  try {
  await guard(req);
  const input=await req.json() as {id:number;token:string}; id=input.id;
- const lead=leads.find(l=>l.id===id);
+ const lead=getLeads().find(l=>l.id===id);
  if(!lead || lead.status!=='ready' || !lead.subject || !lead.body) return json({error:'This business is not eligible for sending.'},400);
  if(typeof input.token!=='string'||input.token.length>4096) return json({error:'Reconnect Gmail.'},401);
  const auth={Authorization:`Bearer ${input.token}`};
