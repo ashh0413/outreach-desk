@@ -1,0 +1,991 @@
+[
+  {
+    "id": 1,
+    "business": "Divine Home Furnishing",
+    "email": "Not found",
+    "source": "https://divinehomefurnishing.com/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 2,
+    "business": "Noodira Unisex Salon",
+    "email": "contact@noodiraunisexsalon.com",
+    "source": "https://noodiraunisexsalon.com/",
+    "status": "sent",
+    "subject": "A small website improvement for Noodira Unisex Salon",
+    "body": "Hi Noodira Unisex Salon team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: blog titles still contain placeholder text.\n\nPage: https://noodiraunisexsalon.com/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "d Hair Cuts Read More Admin 15 Aug , 2020. Sat The standard Lorem Ipsum passage, Read More Admin 14 Aug , 2020. Fri The standard Lorem Ipsum passage, used since the 1",
+    "checked": "2026-09-06T15:22:52.321496"
+  },
+  {
+    "id": 3,
+    "business": "Looks & Luxe Salon",
+    "email": "contact@looksluxe.com",
+    "source": "https://www.looksluxe.com/services.php",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.looksluxe.com'. (_ssl.c:1010)>"
+  },
+  {
+    "id": 4,
+    "business": "Creative Master",
+    "email": "info@creativemaster.in",
+    "source": "https://creativemaster.in/",
+    "status": "sent",
+    "subject": "A small website improvement for Creative Master",
+    "body": "Hi Creative Master team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: team and blog introductions contain placeholder copy.\n\nPage: https://creativemaster.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Dedicate Our Team There are many variations of passages of Lorem Ipsum the injected humour randomised word. All Members What Clients Say Hear what our happy clients ",
+    "checked": "2026-09-06T15:22:55.575913"
+  },
+  {
+    "id": 5,
+    "business": "D7 Med Clinic",
+    "email": "info@d7medclinic.com",
+    "source": "https://www.d7medclinic.com/",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  },
+  {
+    "id": 6,
+    "business": "Welltuch Furniture",
+    "email": "sales@welltuchfurniture.com",
+    "source": "https://welltuchfurniture.com/",
+    "status": "bounced",
+    "subject": "A small website improvement for Welltuch Furniture",
+    "body": "Hi Welltuch Furniture team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: blog titles contain placeholder copy.\n\nPage: https://welltuchfurniture.com/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "rstands the workspace from all angles. Blog's View All Blog Lorem Ipsum Dolor Sit Amet,2 Welltuch Furniture was established in 2002 as a certified manufacturer based ",
+    "checked": "2026-09-06T15:22:52.337033"
+  },
+  {
+    "id": 7,
+    "business": "House of Meda",
+    "email": "hello@houseofmeda.com",
+    "source": "https://www.houseofmeda.com/",
+    "status": "ready",
+    "subject": "A small website improvement for House of Meda",
+    "body": "Hi House of Meda team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: homepage and process sections contain placeholder copy.\n\nPage: https://www.houseofmeda.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "tory FAQ Contact Us Book A Consultation Book A Consultation Lorem ipsum dolor sit consectetu Lorem ipsum dolor sit amet consectetur at fermentum quis massa tempustell",
+    "checked": "2026-09-06T15:22:56.336988"
+  },
+  {
+    "id": 8,
+    "business": "Urology Specialist",
+    "email": "dr.deepak@urology-specialist.com",
+    "source": "https://www.urology-specialist.com/contact-us.php",
+    "status": "skipped: could not recheck page",
+    "reason": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "id": 9,
+    "business": "ID Space",
+    "email": "Not found",
+    "source": "https://idspace.in/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 10,
+    "business": "FYI Design Studios",
+    "email": "info@fyidesignsstudios.com",
+    "source": "https://www.fyidesignstudios.com/service.php",
+    "status": "ready",
+    "subject": "A small website improvement for FYI Design Studios",
+    "body": "Hi FYI Design Studios team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: service page contains placeholder copy.\n\nPage: https://www.fyidesignstudios.com/service.php\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " rigorous quality control and impeccable delivery View More Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perfere",
+    "checked": "2026-09-06T15:22:54.168584"
+  },
+  {
+    "id": 11,
+    "business": "Ashirwad Dental Clinic",
+    "email": "ashirwadclinicjpnagar@gmail.com",
+    "source": "https://www.ashirwaddentalclinic.com/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 12,
+    "business": "Prerana Constructions",
+    "email": "info@preranaconstructions.com",
+    "source": "https://preranaconstructions.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Prerana Constructions",
+    "body": "Hi Prerana Constructions team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder copy.\n\nPage: https://preranaconstructions.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "oject Completed projects Project gallery Our Client Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pu",
+    "checked": "2026-09-06T15:22:56.877464"
+  },
+  {
+    "id": 13,
+    "business": "DY Uppar & Sons",
+    "email": "dyuppar@gmail.com",
+    "source": "https://dyuppar.com/",
+    "status": "ready",
+    "subject": "A small website improvement for DY Uppar & Sons",
+    "body": "Hi DY Uppar & Sons team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: project sections contain placeholder names and descriptions.\n\nPage: https://dyuppar.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "unities. Know More Ongoing and Future Projects Project Name Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, laborum. Know More Project Name Lorem ipsum d",
+    "checked": "2026-09-06T15:22:54.432519"
+  },
+  {
+    "id": 14,
+    "business": "Smile Dental Care",
+    "email": "smiledentalcarejpnagar@gmail.com",
+    "source": "https://www.smiledentalcare.co.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Smile Dental Care",
+    "body": "Hi Smile Dental Care team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: about section contains placeholder copy.\n\nPage: https://www.smiledentalcare.co.in/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "possible. Submit Now X About Us Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, m",
+    "checked": "2026-09-06T15:22:54.3842"
+  },
+  {
+    "id": 15,
+    "business": "The Catering Hub",
+    "email": "info@thecateringhub.in",
+    "source": "https://thecateringhub.in/",
+    "status": "ready",
+    "subject": "A small website improvement for The Catering Hub",
+    "body": "Hi The Catering Hub team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: blog section contains placeholder content.\n\nPage: https://thecateringhub.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "n to you how all this mistaken idea of denouncing pleasure. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do",
+    "checked": "2026-09-06T15:22:54.739465"
+  },
+  {
+    "id": 16,
+    "business": "Amerigo Structural Engineers",
+    "email": "srinivasa@amerigo-sepl.com",
+    "source": "https://amerigosepl.com/get-in-touch/",
+    "status": "ready",
+    "subject": "A small website improvement for Amerigo Structural Engineers",
+    "body": "Hi Amerigo Structural Engineers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://amerigosepl.com/get-in-touch/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "A Quote Contact Us Contact us today for mutual development, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium sit amet mauris nec eleifend. Home",
+    "checked": "2026-09-06T15:22:55.364595"
+  },
+  {
+    "id": 17,
+    "business": "Esthetica Dermadent",
+    "email": "dentalclinic@estheticadermadent.com",
+    "source": "https://offers.estheticadermadent.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Esthetica Dermadent",
+    "body": "Hi Esthetica Dermadent team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: offer-page testimonials contain placeholder content.\n\nPage: https://offers.estheticadermadent.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ca Dermadent is a great place to visit. Highly recommended! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust",
+    "checked": "2026-09-06T15:22:55.242589"
+  },
+  {
+    "id": 18,
+    "business": "Appayan Bangalore",
+    "email": "info@appayanbangalore.in",
+    "source": "https://appayanbangalore.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Appayan Bangalore",
+    "body": "Hi Appayan Bangalore team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact section contains placeholder copy.\n\nPage: https://appayanbangalore.in/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "rt Suggestion for a Pooja Service Fill up the form below to Lorem Ipsum Pooja or Cataring Place* Bangalore delhi hyderabad Pooja Type* Santoshi MA Pooja Santoshi MA P",
+    "checked": "2026-09-06T15:22:58.392576"
+  },
+  {
+    "id": 19,
+    "business": "WOW Fitness",
+    "email": "worldofwellness2023@gmail.com",
+    "source": "https://wow-fitness.justdeall.in/",
+    "status": "ready",
+    "subject": "A small website improvement for WOW Fitness",
+    "body": "Hi WOW Fitness team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: blog and testimonial sections contain template content.\n\nPage: https://wow-fitness.justdeall.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ess Our Blogs WOW Fitness 06 Feb 2024 By Admin Blog Title 1 Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem I",
+    "checked": "2026-09-06T15:22:56.298095"
+  },
+  {
+    "id": 20,
+    "business": "Tiddly Tavern",
+    "email": "tiddlyblrmarketing@gmail.com",
+    "source": "https://tiddlytavern.com/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 21,
+    "business": "Grub Foods",
+    "email": "info@thegrub.com",
+    "source": "https://thegrub.co.in/dt_portfolios/vestibulum-pellentesque-metus/",
+    "status": "skipped: could not recheck page",
+    "reason": "The read operation timed out"
+  },
+  {
+    "id": 22,
+    "business": "Bowring Service Station",
+    "email": "contactadmin@bowringservicestation.com",
+    "source": "https://bowringstation.com/about/",
+    "status": "ready",
+    "subject": "A small website improvement for Bowring Service Station",
+    "body": "Hi Bowring Service Station team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: team section contains unnamed template profiles.\n\nPage: https://bowringstation.com/about/\n\nI could help replace template profiles with actual team details and completed biographies. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ement, and eco-conscious practices. Team member description lorem ipsum dolar sit amet. Name Job Position Team member description lorem ipsum dolar sit amet. Team mem",
+    "checked": "2026-09-06T15:23:01.11392"
+  },
+  {
+    "id": 23,
+    "business": "Goodwill Associates",
+    "email": "info@goodwillassociates.com",
+    "source": "https://goodwillassociates.com/services/",
+    "status": "ready",
+    "subject": "A small website improvement for Goodwill Associates",
+    "body": "Hi Goodwill Associates team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: services and contact details contain template remnants.\n\nPage: https://goodwillassociates.com/services/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "uto Car Provide low interest many variations of passages of lorem ipsum have some. Wedding Facilisis volutpat est interest many variations of passages of lorem ipsum ",
+    "checked": "2026-09-06T15:22:58.691171"
+  },
+  {
+    "id": 24,
+    "business": "Sri Manjunatha Travels",
+    "email": "info@srimanjunathatravels.in",
+    "source": "https://www.srimanjunathatravels.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Sri Manjunatha Travels",
+    "body": "Hi Sri Manjunatha Travels team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder content.\n\nPage: https://www.srimanjunathatravels.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " safety first Well maintained cabs Testimonials James Peter Lorem Ipsum passages, and more recently with desktop publish soft like aldus pageMaker including versions ",
+    "checked": "2026-09-06T15:22:58.005439"
+  },
+  {
+    "id": 25,
+    "business": "SP Digital Marketing Agency",
+    "email": "info@spdigitalmarketingagency.in",
+    "source": "https://spdigitalmarketingagency.com/ContactUs_.html",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": 26,
+    "business": "S & K Associates",
+    "email": "info@sandk.in",
+    "source": "https://www.sandk.in/contact-us.php",
+    "status": "ready",
+    "subject": "A small website improvement for S & K Associates",
+    "body": "Hi S & K Associates team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page text contains placeholder copy.\n\nPage: https://www.sandk.in/contact-us.php\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "s Home Contact Us CONTACT US Needs Help? Let’s Get in Touch Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod temp incididunt ut labore et dolo",
+    "checked": "2026-09-06T15:22:59.446632"
+  },
+  {
+    "id": 27,
+    "business": "OM Home Cleaning Services",
+    "email": "omhomeservices207@gmail.com",
+    "source": "https://omhomeservices.com/",
+    "status": "ready",
+    "subject": "A small website improvement for OM Home Cleaning Services",
+    "body": "Hi OM Home Cleaning Services team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonial section contains placeholder text.\n\nPage: https://omhomeservices.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " more task to take care of: post-construction cleaning. SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pu",
+    "checked": "2026-09-06T15:23:03.631475"
+  },
+  {
+    "id": 28,
+    "business": "Aroor Infotech",
+    "email": "info@aroorinfotech.com",
+    "source": "https://aroorinfotech.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Aroor Infotech",
+    "body": "Hi Aroor Infotech team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: service descriptions contain placeholder copy.\n\nPage: https://aroorinfotech.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "hoose us Some Of Our Features We are fast Qualified Workers Lorem Ipsum is simply dummy text of the printing No fix, no fee Repair on Demand Lorem Ipsum is simply dum",
+    "checked": "2026-09-06T15:23:00.265587"
+  },
+  {
+    "id": 29,
+    "business": "PageWork Stationery",
+    "email": "contact@pageworkstationery.com",
+    "source": "https://pageworkstationery.com/contact-us/",
+    "status": "ready",
+    "subject": "A small website improvement for PageWork Stationery",
+    "body": "Hi PageWork Stationery team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: shipping, payment and support descriptions contain unfinished text.\n\nPage: https://pageworkstationery.com/contact-us/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Support. It has survived not only. Online Payment. All the Lorem Ipsum on. Fast Delivery. Many desktop page now. USEFUL LINKS Privacy Policy Terms & Conditions Conta",
+    "checked": "2026-09-06T15:23:00.186082"
+  },
+  {
+    "id": 30,
+    "business": "SRS Cargo Packers and Movers",
+    "email": "Not found",
+    "source": "https://srscargopackers.com/services.html",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 31,
+    "business": "Akhanda Packers and Movers",
+    "email": "info@akhandapackersandmovers.in",
+    "source": "https://akhandapackersandmovers.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Akhanda Packers and Movers",
+    "body": "Hi Akhanda Packers and Movers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: blog entries contain placeholder content.\n\nPage: https://akhandapackersandmovers.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ert Staff Our Blogs Akhanda Packers and Movers in Bangalore Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust",
+    "checked": "2026-09-06T15:23:00.635967"
+  },
+  {
+    "id": 32,
+    "business": "Bangalore Bombay Logistics",
+    "email": "bangalorebombaylogistics@gmail.com",
+    "source": "https://bangalorebombaylogistics.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Bangalore Bombay Logistics",
+    "body": "Hi Bangalore Bombay Logistics team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: homepage hero description contains placeholder copy.\n\nPage: https://bangalorebombaylogistics.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "’re Global Logistics Partners There are many of passages of lorem Ipsum, but the majori have suffered alteration in some form. Discover more We’re Global Logistics Pa",
+    "checked": "2026-09-06T15:23:00.809711"
+  },
+  {
+    "id": 33,
+    "business": "Amado Tools",
+    "email": "sales@amadotools.com",
+    "source": "https://amadotools.com/",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+    "id": 34,
+    "business": "Grace Cargo Packers & Movers",
+    "email": "gracepackersindia@gmail.com",
+    "source": "https://gracepackersindia.com/dt_portfolios/cras-tristique-purus-non-lacus/",
+    "status": "ready",
+    "subject": "A small website improvement for Grace Cargo Packers & Movers",
+    "body": "Hi Grace Cargo Packers & Movers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: public portfolio entry contains dummy content.\n\nPage: https://gracepackersindia.com/dt_portfolios/cras-tristique-purus-non-lacus/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ue purus non lacus There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or rand",
+    "checked": "2026-09-06T15:23:03.402801"
+  },
+  {
+    "id": 35,
+    "business": "iFixox",
+    "email": "business@ifixox.com",
+    "source": "https://ifixox.com/",
+    "status": "ready",
+    "subject": "A small website improvement for iFixox",
+    "body": "Hi iFixox team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonial section contains template content.\n\nPage: https://ifixox.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "e One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. Poly Dem WordPress Dev. Even the all-powerful P",
+    "checked": "2026-09-06T15:23:01.404296"
+  },
+  {
+    "id": 36,
+    "business": "Nuxus Pest Control",
+    "email": "support@nuxus.in",
+    "source": "https://nuxus.in/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 37,
+    "business": "Cojective",
+    "email": "Not found",
+    "source": "https://cojective.in/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 38,
+    "business": "Poorna Vikasa Vidyalaya",
+    "email": "contact@pvvschool.com",
+    "source": "https://pvvschool.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Poorna Vikasa Vidyalaya",
+    "body": "Hi Poorna Vikasa Vidyalaya team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: news section contains placeholder content.\n\nPage: https://pvvschool.com/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "s, and school happenings. View All Events Design 8 min read Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing",
+    "checked": "2026-09-06T15:23:02.40969"
+  },
+  {
+    "id": 39,
+    "business": "Templetree Paper",
+    "email": "templetreepaper@gmail.com",
+    "source": "https://templetreepaper.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Templetree Paper",
+    "body": "Hi Templetree Paper team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: homepage contains unrelated health template sections.\n\nPage: https://templetreepaper.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "away. How It Works There are many variations of passages of lorem ipsum available Overall Health All the lorem ipsum generators on the Internet tend to repeat predefi",
+    "checked": "2026-09-06T15:23:03.094604"
+  },
+  {
+    "id": 40,
+    "business": "Akshara College",
+    "email": "info@aksharacollege.org",
+    "source": "https://aksharacollege.org/",
+    "status": "ready",
+    "subject": "A small website improvement for Akshara College",
+    "body": "Hi Akshara College team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: gallery descriptions contain placeholder copy.\n\nPage: https://aksharacollege.org/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "paration for life; education is life itself. Gallery Image1 Lorem Ipsum is simply dummy text of the printing × This is the first one on my Gallery Gallery Image2 Lore",
+    "checked": "2026-09-06T15:23:02.739849"
+  },
+  {
+    "id": 41,
+    "business": "TGI Felicity",
+    "email": "reservations@tgihotels.com",
+    "source": "https://www.tgihotels.com/tgi-felicity/",
+    "status": "ready",
+    "subject": "A small website improvement for TGI Felicity",
+    "body": "Hi TGI Felicity team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: hotel page contains placeholder content and unrelated destination copy.\n\nPage: https://www.tgihotels.com/tgi-felicity/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "taurant also offers captivating views of the Western Ghats. Lorem Ipsum Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr Discover more Lorem Ipsum Lorem Ipsum ",
+    "checked": "2026-09-06T15:23:03.121226"
+  },
+  {
+    "id": 42,
+    "business": "Pencil Gardens",
+    "email": "pencilgardens@gmail.com",
+    "source": "https://pencilgardens.com/contact/",
+    "status": "ready",
+    "subject": "A small website improvement for Pencil Gardens",
+    "body": "Hi Pencil Gardens team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://pencilgardens.com/contact/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ed with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. Find the perfect plants at Pencil Gardens. We take pride for having on",
+    "checked": "2026-09-06T15:23:04.197366"
+  },
+  {
+    "id": 43,
+    "business": "VK Academy",
+    "email": "nirmal@vkacademy.in",
+    "source": "https://vkacademy.in/bangalore/robotics-course-in-bangalore.html",
+    "status": "ready",
+    "subject": "A small website improvement for VK Academy",
+    "body": "Hi VK Academy team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: robotics course page contains placeholder content.\n\nPage: https://vkacademy.in/bangalore/robotics-course-in-bangalore.html\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ob opportunity in the field of IT by technology Latest News Lorem ipsum neque vulputate Dolor amet sed quam vitae Lorem ipsum neque, vulputate Dolor amet sed quam vit",
+    "checked": "2026-09-06T15:23:03.265496"
+  },
+  {
+    "id": 44,
+    "business": "EQube International School",
+    "email": "eqube.sch2023@gmail.com",
+    "source": "https://equbeschool.in/about-us/",
+    "status": "ready",
+    "subject": "A small website improvement for EQube International School",
+    "body": "Hi EQube International School team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: about page contains placeholder copy.\n\nPage: https://equbeschool.in/about-us/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "POWER - ENLIGHT About EQube Encouraging development Growth. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pu",
+    "checked": "2026-09-06T15:23:03.571649"
+  },
+  {
+    "id": 45,
+    "business": "Aesign Engineering Services",
+    "email": "aesignenggservices@gmail.com",
+    "source": "https://aesignenggservices.com/index.php",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [Errno 11002] getaddrinfo failed>"
+  },
+  {
+    "id": 46,
+    "business": "RK Graphics",
+    "email": "info@rkgraphic.com",
+    "source": "https://rkgraphic.com/",
+    "status": "ready",
+    "subject": "A small website improvement for RK Graphics",
+    "body": "Hi RK Graphics team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: vision, mission and some testimonials contain placeholder copy.\n\nPage: https://rkgraphic.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "sses for superior color accuracy and durability. Our Vision Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our Mission Lorem ipsum dolor sit amet, consectet",
+    "checked": "2026-09-06T15:23:04.101246"
+  },
+  {
+    "id": 47,
+    "business": "Sri Shakti Gravures",
+    "email": "srishaktigravures@gmail.com",
+    "source": "https://srishaktigravures.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Sri Shakti Gravures",
+    "body": "Hi Sri Shakti Gravures team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: news entries contain placeholder copy.\n\nPage: https://srishaktigravures.com/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " About Us Services About Us Services Latest News 12.03.2012 Lorem Ipsum Induststandard dummy text ever since the 1500s. induststandard dummy text ....................",
+    "checked": "2026-09-06T15:23:04.104764"
+  },
+  {
+    "id": 48,
+    "business": "Jois Labs",
+    "email": "info@joislabs.com",
+    "source": "https://joislabs.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Jois Labs",
+    "body": "Hi Jois Labs team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: service descriptions contain placeholder copy.\n\nPage: https://joislabs.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "mprove and innovate 0 % our Customers Click Here Processing Lorem ipsum dolor sit amet consecte tu adipisicing elit, sed do eiusmod te mpor incididunt ut labore eto R",
+    "checked": "2026-09-06T15:23:05.497069"
+  },
+  {
+    "id": 49,
+    "business": "Wepel",
+    "email": "sales.wepel@gmail.com",
+    "source": "https://wepel.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Wepel",
+    "body": "Hi Wepel team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: fAQ answers contain placeholder copy.\n\nPage: https://wepel.in/\n\nI could help write useful answers about pricing, process, delivery and support. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ct 0 k+ Trusted by Client Read More Print T-shirts Yourself Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper. Your Onli",
+    "checked": "2026-09-06T15:23:06.266987"
+  },
+  {
+    "id": 50,
+    "business": "LOAM Architects",
+    "email": "info@loamarchitects.com",
+    "source": "https://loamarchitects.com/our-team",
+    "status": "ready",
+    "subject": "A small website improvement for LOAM Architects",
+    "body": "Hi LOAM Architects team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: team-page introduction contains placeholder copy.\n\nPage: https://loamarchitects.com/our-team\n\nI could help replace template profiles with actual team details and completed biographies. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "peat predefined chunks If you are going to use a passage of Lorem Ipsum. Ar.Jenisha Senior Architect Ar.Chandru Senior Architect Ar. Anupama M Nandoor Senior Architec",
+    "checked": "2026-09-06T15:23:04.285526"
+  },
+  {
+    "id": 51,
+    "business": "Icarus Architects",
+    "email": "arch.icarus@gmail.com",
+    "source": "https://icarusarchitects.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Icarus Architects",
+    "body": "Hi Icarus Architects team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder copy.\n\nPage: https://icarusarchitects.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Client of Company “I’m always impressed with the services. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do",
+    "checked": "2026-09-06T15:23:04.61504"
+  },
+  {
+    "id": 52,
+    "business": "Iva Design Studio",
+    "email": "chaya@ivadesignstudio.com",
+    "source": "https://ivadesignstudio.com/projects.html",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": 53,
+    "business": "ActiLife Physio",
+    "email": "bangalore@actilifephysio.com",
+    "source": "https://www.actilifephysio.com/about.php",
+    "status": "ready",
+    "subject": "A small website improvement for ActiLife Physio",
+    "body": "Hi ActiLife Physio team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: therapist section contains placeholder copy.\n\nPage: https://www.actilifephysio.com/about.php\n\nI could help replace template profiles with actual team details and completed biographies. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "eet Our Therapists There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. Jessica",
+    "checked": "2026-09-06T15:23:05.689869"
+  },
+  {
+    "id": 54,
+    "business": "Ishta Aesthetics",
+    "email": "hello@ishtaaesthetics.com",
+    "source": "https://ishtaaesthetics.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Ishta Aesthetics",
+    "body": "Hi Ishta Aesthetics team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain unrelated template copy.\n\nPage: https://ishtaaesthetics.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ptional results. I was very impresed by the avivon service, lorem ipsum is simply free text used by copytyping. Mike Hardson Customer I was very impresed by the avivo",
+    "checked": "2026-09-06T15:23:23.321677"
+  },
+  {
+    "id": 55,
+    "business": "Secuserve",
+    "email": "info@secuserve.co.in",
+    "source": "https://secuserve.co.in/services/",
+    "status": "ready",
+    "subject": "A small website improvement for Secuserve",
+    "body": "Hi Secuserve team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: service description contains placeholder copy.\n\nPage: https://secuserve.co.in/services/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "nt of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters Address Info Mahadevapura, Bangal",
+    "checked": "2026-09-06T15:23:06.282335"
+  },
+  {
+    "id": 56,
+    "business": "First Eye Detective & Security Services",
+    "email": "Not found",
+    "source": "https://firsteyesecurity.com/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 57,
+    "business": "Dynamic Security Services",
+    "email": "info@dynamicsecurity.in",
+    "source": "https://dynamicsecurity.in/contact/",
+    "status": "ready",
+    "subject": "A small website improvement for Dynamic Security Services",
+    "body": "Hi Dynamic Security Services team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://dynamicsecurity.in/contact/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ontact Contact Dynamic Security Services Our Office Address Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+    "checked": "2026-09-06T15:23:17.513889"
+  },
+  {
+    "id": 58,
+    "business": "Inspire India Properties",
+    "email": "info@inspireindiaproperties.com",
+    "source": "https://www.inspireindiaproperties.com/index.aspx",
+    "status": "ready",
+    "subject": "A small website improvement for Inspire India Properties",
+    "body": "Hi Inspire India Properties team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: recent-project descriptions contain placeholder copy.\n\nPage: https://www.inspireindiaproperties.com/index.aspx\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "gful wealth over next few years. Learn More Recent Projects Lorem ipsum Duis vulputate consectetur malesuada et in dictum nisi vehicula. Lorem ipsum Duis vulputate co",
+    "checked": "2026-09-06T15:23:07.234745"
+  },
+  {
+    "id": 59,
+    "business": "Laundry Socials",
+    "email": "care@laundrysocials.in",
+    "source": "https://laundrysocials.in/contact/",
+    "status": "ready",
+    "subject": "A small website improvement for Laundry Socials",
+    "body": "Hi Laundry Socials team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://laundrysocials.in/contact/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "sh Threads Rewards Laundry Socials Commercials Blog Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pu",
+    "checked": "2026-09-06T15:23:08.2513"
+  },
+  {
+    "id": 60,
+    "business": "Icon Luxury Spa",
+    "email": "info@iconluxuryspa.com",
+    "source": "https://iconluxuryspa.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Icon Luxury Spa",
+    "body": "Hi Icon Luxury Spa team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonial contains placeholder copy.\n\nPage: https://iconluxuryspa.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Scrub-Combo Therapy Rejuvenate Your Skin & Relax Your Body Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pu",
+    "checked": "2026-09-06T15:23:07.62873"
+  },
+  {
+    "id": 61,
+    "business": "Sanjeevini Spa",
+    "email": "sanjeevinispahsr@gmail.com",
+    "source": "https://www.sanjeevinispa-hsr.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Sanjeevini Spa",
+    "body": "Hi Sanjeevini Spa team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder prose.\n\nPage: https://www.sanjeevinispa-hsr.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "era, learn everything there is to know about the ubiquitous lorem ipsum passage known” William Shak Manager, LDC “Creation timelines for the standard lorem ipsum pass",
+    "checked": "2026-09-06T15:23:07.835341"
+  },
+  {
+    "id": 62,
+    "business": "Bhuwalka Castings & Forging",
+    "email": "bcfl@bhuwalka.co.in",
+    "source": "https://bhuwalkacasting.com/sand-casting/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 63,
+    "business": "WOQEM Research Center",
+    "email": "Not found",
+    "source": "https://woqem.in/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 64,
+    "business": "Sri Satish Press Tools",
+    "email": "deepak@ssptindia.co.in",
+    "source": "https://www.ssptindia.co.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Sri Satish Press Tools",
+    "body": "Hi Sri Satish Press Tools team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: news section contains placeholder text and invalid dates.\n\nPage: https://www.ssptindia.co.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " in a professional and timely manner. Read More Latest News Lorem ipsum dolor sit amet consectetur adipiscing sed diam . 00 Aug. 2019 Lorem ipsum dolor sit amet conse",
+    "checked": "2026-09-06T15:23:08.629087"
+  },
+  {
+    "id": 65,
+    "business": "Bharath Laser",
+    "email": "Not found",
+    "source": "https://www.bharathlaser.com/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 66,
+    "business": "Kleo Interio",
+    "email": "Not found",
+    "source": "https://www.kleointerio.com/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 67,
+    "business": "WE4U Tech",
+    "email": "asmakhan@we4utech.com",
+    "source": "https://www.we4utech.com/",
+    "status": "ready",
+    "subject": "A small website improvement for WE4U Tech",
+    "body": "Hi WE4U Tech team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: fAQs contain unrelated template prose.\n\nPage: https://www.we4utech.com/\n\nI could help write useful answers about pricing, process, delivery and support. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " offensive, an unacceptable risk in corporate environments. Lorem ipsum and its many variants have been employed since the early 1960ies, and quite likely since the s",
+    "checked": "2026-09-06T15:23:09.149994"
+  },
+  {
+    "id": 68,
+    "business": "Blue Caffeine",
+    "email": "connect@bluecaffeine.com",
+    "source": "https://www.bluecaffeine.com/saas-digital-marketing-services/",
+    "status": "ready",
+    "subject": "A small website improvement for Blue Caffeine",
+    "body": "Hi Blue Caffeine team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: case-study descriptions contain placeholder copy.\n\nPage: https://www.bluecaffeine.com/saas-digital-marketing-services/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "tomer Experience company helping companies Steer Case Study Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. EvolutionIQ Lorem ipsum dolor sit",
+    "checked": "2026-09-06T15:23:10.086798"
+  },
+  {
+    "id": 69,
+    "business": "DTech Solutions",
+    "email": "Not found",
+    "source": "https://dtechsolutions.co/why-do-we-use-it/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 70,
+    "business": "Inspirational Design Home",
+    "email": "inspirationaldesignhome@gmail.com",
+    "source": "https://inspirationaldesignhome.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Inspirational Design Home",
+    "body": "Hi Inspirational Design Home team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: architecture and building description contains placeholder copy.\n\nPage: https://inspirationaldesignhome.in/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "tecture & Building There are many variations of passages of Lorem Ipsum available. Our Core Values Principles That Guide Us About Us About Us Quality Commitment We ar",
+    "checked": "2026-09-06T15:23:09.668886"
+  },
+  {
+    "id": 71,
+    "business": "Rapsol Technologies",
+    "email": "Not found",
+    "source": "https://rapsoltechnologies.com/service",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 72,
+    "business": "Grihamithra",
+    "email": "info@grihamithra.com",
+    "source": "https://www.grihamithra.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Grihamithra",
+    "body": "Hi Grihamithra team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: construction and interior descriptions contain placeholder copy.\n\nPage: https://www.grihamithra.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "tal, or appraisal of real property. 1 Building Construction lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident. Read ",
+    "checked": "2026-09-06T15:23:10.027059"
+  },
+  {
+    "id": 73,
+    "business": "Abra Design and Build",
+    "email": "support@abra-designbuild.com",
+    "source": "https://www.abra-designbuild.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Abra Design and Build",
+    "body": "Hi Abra Design and Build team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: project descriptions contain placeholder copy.\n\nPage: https://www.abra-designbuild.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "UA = 1350.80 SQ.FT There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form 1350.80 Square Feet 01 Bathr",
+    "checked": "2026-09-06T15:23:10.232898"
+  },
+  {
+    "id": 74,
+    "business": "Sohum Developers",
+    "email": "info@sohumdevelopers.in",
+    "source": "https://www.sohumdevelopers.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Sohum Developers",
+    "body": "Hi Sohum Developers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder prose.\n\nPage: https://www.sohumdevelopers.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ssociates and well established promoters. More Testimonials Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet at lacus id faucibus. Pellent",
+    "checked": "2026-09-06T15:23:10.427692"
+  },
+  {
+    "id": 75,
+    "business": "Jai Holidays",
+    "email": "jaiholidays@gmail.com",
+    "source": "https://jaiholidays.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Jai Holidays",
+    "body": "Hi Jai Holidays team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: company and service descriptions contain placeholder copy.\n\nPage: https://jaiholidays.in/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "Our Trevlo Company There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some Safety First Always Lorem Ipsum i",
+    "checked": "2026-09-06T15:23:10.767275"
+  },
+  {
+    "id": 76,
+    "business": "Shravanthi Group",
+    "email": "enquiry@shravanthigroup.com",
+    "source": "https://www.shravanthigroup.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Shravanthi Group",
+    "body": "Hi Shravanthi Group team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: eMI calculator introduction contains unrelated placeholder text.\n\nPage: https://www.shravanthigroup.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " India EMI - Calculator EMI Calculator Reference site about Lorem Ipsum, giving information on its origins, as well as a Outstanding Principle Interest Rate (%) Tenur",
+    "checked": "2026-09-06T15:23:11.405025"
+  },
+  {
+    "id": 77,
+    "business": "ND Developers",
+    "email": "sales@nddevelopers.com",
+    "source": "https://nddevelopers.com/contact/",
+    "status": "ready",
+    "subject": "A small website improvement for ND Developers",
+    "body": "Hi ND Developers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://nddevelopers.com/contact/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "1810731 sales@nddevelopers.com Contact Get in touch with us Lorem Ipsum is simply dummy text of the printing and type N.D. DEVELOPERS (P) LTD. #25, Sri Balaji Nilaya,",
+    "checked": "2026-09-06T15:23:13.176123"
+  },
+  {
+    "id": 78,
+    "business": "OMS Constructions",
+    "email": "nagarjun@omsconstructions.com",
+    "source": "https://omsconstructions.com/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 79,
+    "business": "Rions Property",
+    "email": "Rions123@Gmail.com",
+    "source": "https://rions.in/",
+    "status": "skipped: issue not reconfirmed"
+  },
+  {
+    "id": 80,
+    "business": "CKV Group",
+    "email": "info@ckvgroup.in",
+    "source": "https://ckvgroup.in/",
+    "status": "ready",
+    "subject": "A small website improvement for CKV Group",
+    "body": "Hi CKV Group team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder prose.\n\nPage: https://ckvgroup.in/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Sq.feet Mr & Mrs Martin’s Home 2000 Sq.feet Ms. Anita Rao “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol",
+    "checked": "2026-09-06T15:23:13.083314"
+  },
+  {
+    "id": 81,
+    "business": "amace Solutions",
+    "email": "enquiries@am-ace.com",
+    "source": "https://am-ace.com/contact-us/",
+    "status": "ready",
+    "subject": "A small website improvement for amace Solutions",
+    "body": "Hi amace Solutions team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://am-ace.com/contact-us/\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "arnataka 560058 Get in Touch with Us High-quality parts and lorem ipsum dolor simet algo products using materials like plastics, metals, and ceramics. Name Email Phon",
+    "checked": "2026-09-06T15:23:13.49426"
+  },
+  {
+    "id": 82,
+    "business": "Lex Global Consultants",
+    "email": "contact@lexglobalconsultants.com",
+    "source": "https://www.lexglobalconsultants.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Lex Global Consultants",
+    "body": "Hi Lex Global Consultants team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonials contain placeholder prose.\n\nPage: https://www.lexglobalconsultants.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "tched value to clients. Let’s collaborate to create impact. Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme Maria , Boss Sed ",
+    "checked": "2026-09-06T15:23:13.667152"
+  },
+  {
+    "id": 83,
+    "business": "Safexpress Packers And Movers",
+    "email": "info@safexpresspm.in",
+    "source": "https://safexpresspm.in/Contact.php",
+    "status": "ready",
+    "subject": "A small website improvement for Safexpress Packers And Movers",
+    "body": "Hi Safexpress Packers And Movers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: contact-page introduction contains placeholder copy.\n\nPage: https://safexpresspm.in/Contact.php\n\nI could help complete contact copy and verify the address, email and enquiry links. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ts the nergistically productize emerging users inexpensive. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ipsam. Call Us Anytime +91 78771 35800 Ca",
+    "checked": "2026-09-06T15:23:13.900894"
+  },
+  {
+    "id": 84,
+    "business": "DBS Lifestyle",
+    "email": "info@dbstd.com",
+    "source": "https://dbslifestyle.com/",
+    "status": "ready",
+    "subject": "A small website improvement for DBS Lifestyle",
+    "body": "Hi DBS Lifestyle team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: service and testimonial sections contain placeholder copy.\n\nPage: https://dbslifestyle.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " Design to Manufacturing for Fashion & Home. Textile Studio Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod. Learn More Fashion Studio Lorem ip",
+    "checked": "2026-09-06T15:23:14.69518"
+  },
+  {
+    "id": 85,
+    "business": "Excelzon",
+    "email": "info@excelzon.in",
+    "source": "https://excelzon.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Excelzon",
+    "body": "Hi Excelzon team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: recent-post list contains placeholder titles.\n\nPage: https://excelzon.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ls until receipt of your formal Purchase Order. Recent Post Lorem ipsum dolor sit amet vel cu habemus Ei qui possim abhorreant ei eam iudico disputando Est ei unum il",
+    "checked": "2026-09-06T15:23:14.361097"
+  },
+  {
+    "id": 86,
+    "business": "Ekadanta Space Designers",
+    "email": "ekadantaspace@gmail.com",
+    "source": "https://ekadantaspacedesigners.in/",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+    "id": 87,
+    "business": "DEE BEE Office Concepts",
+    "email": "Not found",
+    "source": "https://ascfurniture.com/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 88,
+    "business": "Green Furniture",
+    "email": "Not found",
+    "source": "https://greenfurniture.in/",
+    "status": "skipped: no public email"
+  },
+  {
+    "id": 89,
+    "business": "SunPV Energy",
+    "email": "sales@sunpvenergy.com",
+    "source": "https://www.sunpvenergy.com/",
+    "status": "ready",
+    "subject": "A small website improvement for SunPV Energy",
+    "body": "Hi SunPV Energy team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: solar solution descriptions contain placeholder copy.\n\nPage: https://www.sunpvenergy.com/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ainable Solutions Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks solution 02 Solar PV Power Solutions Embar",
+    "checked": "2026-09-06T15:23:15.17565"
+  },
+  {
+    "id": 90,
+    "business": "Iaan Jewellers",
+    "email": "contact@iaanjewellers.com",
+    "source": "https://iaanjewellers.com/about-us/",
+    "status": "ready",
+    "subject": "A small website improvement for Iaan Jewellers",
+    "body": "Hi Iaan Jewellers team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: about-page history and advantages contain placeholder copy.\n\nPage: https://iaanjewellers.com/about-us/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "that offers handmade jewelry Hendrerit dolor magna eget est lorem ipsum dolor sit. Mattis rhoncus urna neque viverra justo nec ultrices dui. Nullam ac tortor vitae pu",
+    "checked": "2026-09-06T15:23:14.848091"
+  },
+  {
+    "id": 91,
+    "business": "Srinath Gold Palace",
+    "email": "info@srinathgoldpalace.com",
+    "source": "https://srinathgoldpalace.com/",
+    "status": "ready",
+    "subject": "A small website improvement for Srinath Gold Palace",
+    "body": "Hi Srinath Gold Palace team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: testimonial and blog introductions contain placeholder copy.\n\nPage: https://srinathgoldpalace.com/\n\nI could help replace dummy testimonials with genuine, permission-based customer feedback. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "at Our Clients Say There are many variations of passages of lorem Ipsum available Peeyush Sharma 30. December, 2025. They had accurately priced gold coin, the selling",
+    "checked": "2026-09-06T15:23:15.065118"
+  },
+  {
+    "id": 92,
+    "business": "B S Puttaiya & Sons",
+    "email": "ASHISH@BSPSONS.COM",
+    "source": "https://www.bspsons.com/",
+    "status": "skipped: could not recheck page",
+    "reason": "The read operation timed out"
+  },
+  {
+    "id": 93,
+    "business": "Hoodi Unisex Salon",
+    "email": "Hoodiunisexsaloon@gmail.com",
+    "source": "https://hoodiunisexsaloon.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Hoodi Unisex Salon",
+    "body": "Hi Hoodi Unisex Salon team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: intro-video section contains placeholder copy and old schedule content.\n\nPage: https://hoodiunisexsaloon.in/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "k Anil Intro Video There are many variations of passages of Lorem Ipsum available but the majority injected humour randomised words From Our Blog Stay updated with th",
+    "checked": "2026-09-06T15:23:15.332612"
+  },
+  {
+    "id": 94,
+    "business": "Salt and Pepper Unisex Salon",
+    "email": "saltandpepperhsr@gmail.com",
+    "source": "https://saltandpeppersalon.in/home-8/",
+    "status": "ready",
+    "subject": "A small website improvement for Salt and Pepper Unisex Salon",
+    "body": "Hi Salt and Pepper Unisex Salon team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: public alternate homepage exposes dummy content and prices.\n\nPage: https://saltandpeppersalon.in/home-8/\n\nI could help replace template copy with business-specific information and check linked pages. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "ria di uomini e donne dediti alla Nullam dui dolor About Us Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust",
+    "checked": "2026-09-06T15:23:15.408985"
+  },
+  {
+    "id": 95,
+    "business": "Yadav Tours",
+    "email": "contact@yadavtours.in",
+    "source": "https://yadavtours.in/",
+    "status": "skipped: could not recheck page",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": 96,
+    "business": "Spice Magic",
+    "email": "spicemagicbtm@gmail.com",
+    "source": "https://spicemagic.in/",
+    "status": "skipped: could not recheck page",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": 97,
+    "business": "Ginger Cup",
+    "email": "contact@gingercup.com",
+    "source": "https://www.gingercup.com/contact/",
+    "status": "ready",
+    "subject": "A small website improvement for Ginger Cup",
+    "body": "Hi Ginger Cup team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: fAQ answers contain placeholder copy.\n\nPage: https://www.gingercup.com/contact/\n\nI could help write useful answers about pricing, process, delivery and support. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": " 8800 fAQ Frequently Asked Questions how much will it cost? Lorem ipsum dolor sit amet, vis an nihil tation doctus, mel ne iriure accusam evertitur. Te omnes repudian",
+    "checked": "2026-09-06T15:23:15.642661"
+  },
+  {
+    "id": 98,
+    "business": "GC Rao Academy",
+    "email": "gcraoacademy@gmail.com",
+    "source": "https://www.gcraoacademy.com/team/",
+    "status": "skipped: could not recheck page",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": 99,
+    "business": "Pet Funeral Services Bangalore",
+    "email": "petfuneralservicesbng@gmail.com",
+    "source": "https://petfuneralbangalore.in/",
+    "status": "ready",
+    "subject": "A small website improvement for Pet Funeral Services Bangalore",
+    "body": "Hi Pet Funeral Services Bangalore team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: homepage has placeholder text and unrelated cleaning blog posts.\n\nPage: https://petfuneralbangalore.in/\n\nI could help remove sample posts and publish relevant, finished business content. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "t pets are family. There are many variations of passages of Lorem Ipsum They bring love, comfort, and companionship into our lives—and saying goodbye is never easy. T",
+    "checked": "2026-09-06T15:23:16.464418"
+  },
+  {
+    "id": 100,
+    "business": "St Lioba Academy",
+    "email": "academystlioba@gmail.com",
+    "source": "https://stlioba.in/ourteacher/",
+    "status": "ready",
+    "subject": "A small website improvement for St Lioba Academy",
+    "body": "Hi St Lioba Academy team,\n\nI'm Aston Rodrigues, a web developer based in Bengaluru. While looking through your website, I came across what looks like unfinished template content: teacher page contains template profiles and placeholder copy.\n\nPage: https://stlioba.in/ourteacher/\n\nI could help replace template profiles with actual team details and completed biographies. This would give visitors clearer information about your business. I can also help tidy up the page layout and make the enquiry options easier to find.\n\nYou can see my work here: https://aston-rodrigues.vercel.app/\n\nWould you be open to a quick conversation about these improvements?\n\nRegards,\nAston Rodrigues\nastonajoy77@gmail.com\n\nIf this isn't relevant, let me know and I won't follow up.",
+    "evidence": "nseling 1 Linsay Lohand ASHRAF BADRY PROGRAMMING TECHNOLOGY Lorem ipsum dolor sit amet, ad autem erroribus eum, eum eu maluisset constituto, sam ut for has. Quod epic",
+    "checked": "2026-09-06T15:23:21.264068"
+  }
+]
