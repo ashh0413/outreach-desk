@@ -25,7 +25,9 @@ Set these for Production. Preview deployments need their own allowed Google orig
 
 ## What's included
 
-100 researched businesses: 66 ready, two previously sent, one known bounce, 31 held for verification. Messages for held entries intentionally remain unavailable until their contact/finding is confirmed. Gmail sending uses the official API. The portfolio is a link, not an attachment.
+361 researched businesses across six batches: 204 ready, two previously sent, one known bounce, 154 held for verification. Messages for held entries intentionally remain unavailable until their contact/finding is confirmed. Gmail sending uses the official API. The portfolio is a link, not an attachment.
+
+The dashboard opens on an **Overview** tab: totals (clickable status cards), campaign and market breakdowns, the unconfirmed/bounced/held action lists, and recent saved activity. The shared filter bar (batch, country, status, research date, search) drives both the overview and the **Leads** tab.
 
 Google ID tokens are verified server-side for signature, issuer, audience, expiry and verified email. Only `astonajoy77@gmail.com` is admitted. Sign-in uses a short-lived nonce and an HttpOnly, SameSite cookie (Secure in production). No OpenAI/Cloudflare identity headers are trusted. Unauthenticated visitors cannot receive business data.
 
