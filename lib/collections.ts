@@ -11,7 +11,7 @@ export function batchOptions(leads: Lead[]) {
   const items = leads.filter(l => l.batch === value);
   const byCountry = [...new Set(items.map(l => l.country).filter((c): c is string => !!c))]
    .map(country => `${country} ${items.filter(l => l.country === country).length}`);
-  const date = value === newestBatch ? '18 Nov — High potential' : value === 'india-usa-2026-11-18' ? '18 Nov — Previous' : value === 'india-usa-2026-09-08' ? '8 Sep' : value === 'india-usa-2026-09' ? '6 Sep' : value;
+  const date = value === newestBatch ? '18 Nov — High potential' : value === 'goa-high-potential-2026-11-18' ? '18 Nov — Goa stays' : value === 'india-usa-2026-11-18' ? '18 Nov — Previous' : value === 'india-usa-2026-09-08' ? '8 Sep' : value === 'india-usa-2026-09' ? '6 Sep' : value;
   return { value, label: `${date}: ${byCountry.join(' + ')}` };
  }), { value: 'historical', label: 'Earlier Bengaluru batch' }];
 }
